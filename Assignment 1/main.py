@@ -11,7 +11,7 @@ from tensorflow import keras
 import random
 import sys
 #%%
-inFile = sys.argv[1]
+inFile = sys.argv[2]
 
 input=[]
 with open(inFile, 'r') as filehandle:
