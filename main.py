@@ -57,8 +57,8 @@ def prediction_fizzbuzz(i, pred):
 #%%
 input = np.array(list(map(int, input))) 
 m=len(input);
-f1=open('software1.txt','w');
-f2=open('software2.txt','w');
+f1=open('Software1.txt','w');
+f2=open('Software2.txt','w');
 model = tf.keras.models.load_model('./model/model_final.h5')
 errors=0;
 correct=0;
